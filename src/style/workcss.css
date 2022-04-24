@@ -1,0 +1,77 @@
+.text1{
+    margin-right: 85%;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 40px;
+    line-height: 1.4;
+    padding-top: 15px;
+    padding-bottom: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.text1 p{
+    font-weight: 5px;
+    color: bisque;
+}
+
+.vl {
+    border-left: 2px solid gray;
+    height: 650px;
+    position: absolute;
+    left: 22%;
+    margin-left: -3px;
+    top: 60%;
+  }
+
+
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+    padding-left: 25%;
+    position: absolute;
+    top: 60%;
+  }
+  
+
+  .column {
+    -ms-flex: 40%; 
+    flex: 40%;
+    max-width: 40%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 100%;
+    margin: 20px;
+  }
+  
+ 
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  .imgGrid img:hover{
+    opacity: 80%;
+    margin-bottom: 10px;
+    transition: 0.6s;
+  }
+  body{
+    background-image: url(../pic/blue.jpg);
+  }

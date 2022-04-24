@@ -1,0 +1,23 @@
+form{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0, 0.3)),url(../pic/slide00.png);
+    color: whitesmoke;
+    box-shadow: 0 0 20px 0 chocolate;
+    border: 5px solid white;
+    border-radius: 4px;
+    width: 800px;
+    margin: 100px 30px 100px 30px;
+}
+.word5 a{
+    color: yellow;
+}
+body{
+    background-image: url(../pic/blue.jpg);
+}
+h1{
+    color: tomato;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    color: violet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

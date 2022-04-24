@@ -1,0 +1,188 @@
+
+<HTml>
+    <head><title>POST AD PAGE</title>
+
+    <link rel="stylesheet" type="text/css" href="src/style/stylePostAd.css">
+    <link rel="stylesheet" type="text/css" href="src/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../IWT 2/src/js/postadJS.js"></script>
+  
+   </head>
+
+
+   <header>
+    <img src="src/pic/1.jpg" alt="LOGO" class="logo">
+
+<div class="list">
+    <ul>
+        <li ><a href="index.html">HEY!</a></li>
+        <li><a href="we.html">WE</a></li>
+        <li><a href="work.html">WORK</a></li>
+        <li><a href="contact.html">HERE</a></li>
+    </ul>
+
+
+    <div class="login"> 
+                    
+        <a href="login.html" class="btn2">Log In</a>
+        <a href="registerpage.html" class="btn2">Register</a>
+   
+    </div> 
+
+    <ul><li class="active"><a href="PostAd.html" id="btn1" class="active" > POST AD </a></li></ul>
+    
+
+
+
+    <br>
+    
+    <div class="srch">
+        <input type="text" placeholder="Search" id="src">
+        <button type="submit">GO</button>
+     </div>
+
+     <hr>
+     <hr>
+   
+
+</div>
+</header>
+
+    <body>
+
+        <section>
+            <form  method= "POST" action="../IWT 2/src/php/pAd.php">
+            
+            <Article>
+                <div><h1>POST ADZ</h1></div>
+            
+            <div>
+                <label for="uname">USER NAME</label>
+                <input type="text" id="uname"name = "uname" placeholder="Enter User Name" required>
+            </div>
+
+            <div>
+                <label for="Address">ADDRESS</label>
+                <input type="text" id="Address" name="Address" placeholder="Street Address 1" required><br>
+                <input type="text" id="Address" name="Address" placeholder="Street Address 2"required><br>
+                <input type="text" id="Address" name="Address" placeholder="City"required>
+               
+            </div>
+
+            <div>
+
+                <label for="Country">COUNTRY</label>
+                <select name="country" id="country">
+                      <option value="USA">USA</option>
+                      <option value="UK">UK</option>
+                      <option value="Sri Lanka">Sri Lanka</option>
+                      <option value="India">India</option>
+                </select>
+
+            </div>
+
+
+            <div>               
+                <label for="mno">MOBILE NUMBER</label>
+                <input type="number" id="mno" name="mno" placeholder="Enter Mobile Number" pattern="[0-9]{10}" required>
+            </div>
+
+
+            <div>
+                <label for="email">E-MAIL</label>
+                <input type="email" id="email" name="email" placeholder="Enter E-mail" pattern="[a-z0-9.-%+_]+@[a-z0-9.-%+_].[a-z]{2,3}" required>
+            </div>
+
+            <div>
+                <label for="des">DESCRIPTION</label>
+                <input type="text" id="des" name="des" placeholder="Enter Description" required>
+            </div>
+
+            <div class="radio">
+                <label for="type">ACCOUNT TYPE</label>
+                <span>
+                    
+                    <label for="Owner" class="bus">Business</label>
+                    <input type="radio" id="Business" value="Bussiness" name="youare" checked>
+
+                </span>
+
+                <span>
+                    
+                    <label for="Owner" class="own">Owner</label>
+                    <input type="radio" id="Owner" value="Owner" name="youare">
+                    
+           
+                </span>
+              
+            </div>
+
+
+            <div id="sub">
+                <input type="checkbox" class="chek" id="btncheck" onclick="enablebtn()">Agree to privacy policy <br><br>
+                <button type="submit" id="subbtn" name="subbtn" disabled>POST</button>
+            </div>
+            
+
+
+        </Article>
+    </form>  
+
+
+
+        </section>
+    </body>
+    
+    <footer>
+        <hr>
+        <hr>
+         
+            
+        <img src="src/pic/logoname.jpg" alt="company name" class="logoname">
+
+        <img src="src/pic/qr.jpg" alt="QR Code" class="qr">
+              
+
+      
+
+
+               <div class="mail"> 
+
+                  <h5>Subscribe</h5>
+                  <h6>Receive update and latest news</h6>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" placeholder="Enter email" name="email">
+                  <button type="submit" class="btn3">Sign In</button>
+
+                </div>
+
+                <div class="media">
+                 <center>
+                     <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                     <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                     <a href="https://www.google.lk/?hl=si" class="fa fa-google"></a>
+                     <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a> 
+
+                     <h5>2021 Social Media Production Pvt Ltd</h5>
+                     <br>
+                     <br>
+                 </center>
+                
+
+                </div>
+
+            
+              
+              
+
+        
+               
+
+         
+      
+  
+
+     </footer>
+
+
+</HTml>

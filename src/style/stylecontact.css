@@ -1,0 +1,86 @@
+
+.contact-box{
+    background-color: cadetblue;
+    box-shadow: 0 0 20px 0 chocolate;
+    border: 5px solid white;
+    border-radius: 4px;
+    width: 500px;
+    margin: 100px 30px 100px 30px;
+
+}
+.input{
+      width: 400px;
+      height: 40px;
+      margin: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border: 1px salmon;
+      border-radius: 10px;
+      outline: none;
+      
+
+}
+
+.input-msg{
+    height: 150px;
+    padding-top: 10px;
+    margin: 20px;
+    padding: 10px 20px 10px 20px;
+
+}
+
+.btn{
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding:5px 30px 5px 30px;
+    background-color:burlywood;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+h1{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.slider {
+    width: 900px;
+    height: 550px;
+    background: url(../pic/slide00.png);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide{
+    25%{
+        background: url(../pic/slide1.png);
+    }
+    50% {
+        background: url(../pic/slide2.png);
+    }
+    75% {
+        background: url(../pic/slide3.png);
+    }
+    100% {
+        background: url(../pic/slide4.png);
+    }
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0, 0.4)),url(../pic/web.jpg);
+    background-position: center;
+}
+.para{
+    
+    width: 100%;
+    color: whitesmoke;
+    font-size: 28px;
+    margin-top: 80px;
+    font-family: 'Amita', cursive;
+}
